@@ -13,7 +13,7 @@ const client = new Discord.Client({
   Discord.IntentsBitField.Flags.Guilds,
   Discord.IntentsBitField.Flags.GuildMessageReactions,
   Discord.IntentsBitField.Flags.GuildEmojisAndStickers
-],
+], 
   partials: [
     Discord.Partials.User,
     Discord.Partials.Message,
